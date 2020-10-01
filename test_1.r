@@ -169,7 +169,7 @@ df_var_dnm_fig <- ggplot(data=df_var_dnm, aes(dnm_var, dnm_numbers_var, fill=dnm
     theme_classic()
 
 #hallo
-#hallo
+
 
 
 
