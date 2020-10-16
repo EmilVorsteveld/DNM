@@ -61,7 +61,7 @@ nTG_non_clustered_dnm <- (nrow(TG_non_clustered_dnm)/ndnms)*100
 
 
 TC_clustered_dnm <- non_clustered_dnms %>% filter(Reference =="T", Variant=="C")
-nTC_clustered_dnm <- (nrow(TC_non_clustered_dnm)/ndnms)*100
+nTC_clustered_dnm <- (nrow(TC_clustered_dnm)/ndnms)*100
 
 TC_non_clustered_dnm <- clustered_dnms %>% filter(Reference =="T", Variant=="C")
 nTC_non_clustered_dnm <- (nrow(TC_non_clustered_dnm)/ndnms)*100
