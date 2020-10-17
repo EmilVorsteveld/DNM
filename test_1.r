@@ -3,9 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(cowplot)
 
-
-setwd('/Users/emilvorsteveld/work/R/DNM') #set working directory
-data <- read.csv2("data.csv") #load data from csv file
+data <- read.csv2("./data.csv") #load data from csv file
 data[is.na(data)] = "DNM"
 
 pat <- 816
